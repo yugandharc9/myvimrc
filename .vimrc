@@ -13,4 +13,6 @@ nmap <C-T> :NERDTreeToggle<CR>
 set foldlevelstart=99
 syntax on
 nnoremap Q <nop>
+nnoremap <C-S> :Rg<CR>
+nnoremap <C-P> :Files<CR>
 let g:rg_command = 'rg --vimgrep -S'

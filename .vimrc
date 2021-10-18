@@ -16,3 +16,5 @@ nnoremap Q <nop>
 nnoremap <C-S> :Rg<CR>
 nnoremap <C-P> :Files<CR>
 let g:rg_command = 'rg --vimgrep -S'
+set spell spelllang=en_us
+nnoremap ,e :!date -u -r <cword><CR>

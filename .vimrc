@@ -17,4 +17,4 @@ nnoremap <C-S> :Rg<CR>
 nnoremap <C-P> :Files<CR>
 let g:rg_command = 'rg --vimgrep -S'
 set spell spelllang=en_us
-nnoremap ,e :!date -ud @<cword> +"\%Y-\%m-\%dT\%H:\%M:\%SZ"<CR>
+nnoremap ,e :r!date -ud @<cword> +"\%Y-\%m-\%dT\%H:\%M:\%SZ"<CR>
